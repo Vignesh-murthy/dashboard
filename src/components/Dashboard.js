@@ -8,7 +8,7 @@ const Dashboard = () => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        axios.get('https://vignesh-murthy.github.io/social/')
+        axios.get('https://vignesh-murthy.github.io/dashboard/')
             .then(response => {
                 setData(response.data);
                 setLoading(false);
